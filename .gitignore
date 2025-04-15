@@ -1,0 +1,28 @@
+# Ignore Python virtual environments
+venv/
+venvmpr/
+.env/
+.venv/
+
+# Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings (if you're using VSCode)
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Results/output folders
+results/
+data/raw/
+data/processed/
+
+# Ignore notebook outputs (optional)
+*.nbconvert.ipynb
